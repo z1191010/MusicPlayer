@@ -259,7 +259,7 @@ class MusicPlayerViewController: UIViewController {
                 checkModeState()
         }
     }
-        //原本預計練習用 enum & switch 來判斷及執行,後來因考慮到點選模式按鈕後應於歌曲結束後才執行,最終才將執行程式放在 notitficaiton function 中。
+        //原本預計練習用 enum & switch 來判斷及執行,後來因考慮到點選模式按鈕後應於歌曲結束後才執行,最終才將執行程式放在 notitficaiton function 中.
 }
 
 //==================================================
