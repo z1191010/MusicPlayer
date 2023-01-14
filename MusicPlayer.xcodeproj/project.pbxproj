@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		410D7AF92972ED250085AAC0 /* ChenYuluoyan-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 410D7AF82972ED250085AAC0 /* ChenYuluoyan-Thin.ttf */; };
+		410D7AFD2972EE9E0085AAC0 /* HanyiSentyPine.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 410D7AFC2972EE9E0085AAC0 /* HanyiSentyPine.ttf */; };
+		41318E972971B3D8000875F9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41318E962971B3D8000875F9 /* Assets.xcassets */; };
+		41E98284296BF5F900CB7523 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E98283296BF5F900CB7523 /* AppDelegate.swift */; };
+		41E98286296BF5F900CB7523 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E98285296BF5F900CB7523 /* SceneDelegate.swift */; };
+		41E9828B296BF5F900CB7523 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E98289296BF5F900CB7523 /* Main.storyboard */; };
+		41E98290296BF5FA00CB7523 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 41E9828E296BF5FA00CB7523 /* LaunchScreen.storyboard */; };
+		41E98298296BF8ED00CB7523 /* MusicPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E98297296BF8ED00CB7523 /* MusicPlayerViewController.swift */; };
+		41E9829C296C0B8100CB7523 /* 為你寫下這首情歌.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41E9829B296C0B8100CB7523 /* 為你寫下這首情歌.mp3 */; };
+		41E9829E296C0EF500CB7523 /* MainMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E9829D296C0EF500CB7523 /* MainMusic.swift */; };
+		41E982A3296C11E800CB7523 /* 愛情你比我想的閣較偉大.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41E9829F296C11E800CB7523 /* 愛情你比我想的閣較偉大.mp3 */; };
+		41E982A4296C11E800CB7523 /* 閣愛妳一擺.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41E982A0296C11E800CB7523 /* 閣愛妳一擺.mp3 */; };
+		41E982A5296C11E800CB7523 /* 告別的時代.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41E982A1296C11E800CB7523 /* 告別的時代.mp3 */; };
+		41E982A6296C11E800CB7523 /* 最偉大的作品.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 41E982A2296C11E800CB7523 /* 最偉大的作品.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		410D7AF82972ED250085AAC0 /* ChenYuluoyan-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ChenYuluoyan-Thin.ttf"; sourceTree = "<group>"; };
+		410D7AFC2972EE9E0085AAC0 /* HanyiSentyPine.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HanyiSentyPine.ttf; sourceTree = "<group>"; };
+		41318E962971B3D8000875F9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		41E98280296BF5F900CB7523 /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		41E98283296BF5F900CB7523 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		41E98285296BF5F900CB7523 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		41E9828A296BF5F900CB7523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		41E9828F296BF5FA00CB7523 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		41E98291296BF5FA00CB7523 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		41E98297296BF8ED00CB7523 /* MusicPlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerViewController.swift; sourceTree = "<group>"; };
+		41E9829B296C0B8100CB7523 /* 為你寫下這首情歌.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "為你寫下這首情歌.mp3"; sourceTree = "<group>"; };
+		41E9829D296C0EF500CB7523 /* MainMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMusic.swift; sourceTree = "<group>"; };
+		41E9829F296C11E800CB7523 /* 愛情你比我想的閣較偉大.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "愛情你比我想的閣較偉大.mp3"; sourceTree = "<group>"; };
+		41E982A0296C11E800CB7523 /* 閣愛妳一擺.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "閣愛妳一擺.mp3"; sourceTree = "<group>"; };
+		41E982A1296C11E800CB7523 /* 告別的時代.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "告別的時代.mp3"; sourceTree = "<group>"; };
+		41E982A2296C11E800CB7523 /* 最偉大的作品.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "最偉大的作品.mp3"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		41E9827D296BF5F900CB7523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		41E98277296BF5F900CB7523 = {
+			isa = PBXGroup;
+			children = (
+				41E98282296BF5F900CB7523 /* MusicPlayer */,
+				41E98281296BF5F900CB7523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		41E98281296BF5F900CB7523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				41E98280296BF5F900CB7523 /* MusicPlayer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		41E98282296BF5F900CB7523 /* MusicPlayer */ = {
+			isa = PBXGroup;
+			children = (
+				41E98283296BF5F900CB7523 /* AppDelegate.swift */,
+				41E98285296BF5F900CB7523 /* SceneDelegate.swift */,
+				41E9829D296C0EF500CB7523 /* MainMusic.swift */,
+				41E98289296BF5F900CB7523 /* Main.storyboard */,
+				41E98297296BF8ED00CB7523 /* MusicPlayerViewController.swift */,
+				41E9829B296C0B8100CB7523 /* 為你寫下這首情歌.mp3 */,
+				41E982A2296C11E800CB7523 /* 最偉大的作品.mp3 */,
+				41E982A1296C11E800CB7523 /* 告別的時代.mp3 */,
+				41E9829F296C11E800CB7523 /* 愛情你比我想的閣較偉大.mp3 */,
+				41E982A0296C11E800CB7523 /* 閣愛妳一擺.mp3 */,
+				41318E962971B3D8000875F9 /* Assets.xcassets */,
+				410D7AF82972ED250085AAC0 /* ChenYuluoyan-Thin.ttf */,
+				410D7AFC2972EE9E0085AAC0 /* HanyiSentyPine.ttf */,
+				41E9828E296BF5FA00CB7523 /* LaunchScreen.storyboard */,
+				41E98291296BF5FA00CB7523 /* Info.plist */,
+			);
+			path = MusicPlayer;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		41E9827F296BF5F900CB7523 /* MusicPlayer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E98294296BF5FA00CB7523 /* Build configuration list for PBXNativeTarget "MusicPlayer" */;
+			buildPhases = (
+				41E9827C296BF5F900CB7523 /* Sources */,
+				41E9827D296BF5F900CB7523 /* Frameworks */,
+				41E9827E296BF5F900CB7523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MusicPlayer;
+			productName = MusicPlayer;
+			productReference = 41E98280296BF5F900CB7523 /* MusicPlayer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		41E98278296BF5F900CB7523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					41E9827F296BF5F900CB7523 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 41E9827B296BF5F900CB7523 /* Build configuration list for PBXProject "MusicPlayer" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 41E98277296BF5F900CB7523;
+			productRefGroup = 41E98281296BF5F900CB7523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				41E9827F296BF5F900CB7523 /* MusicPlayer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		41E9827E296BF5F900CB7523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E982A4296C11E800CB7523 /* 閣愛妳一擺.mp3 in Resources */,
+				41E982A6296C11E800CB7523 /* 最偉大的作品.mp3 in Resources */,
+				410D7AFD2972EE9E0085AAC0 /* HanyiSentyPine.ttf in Resources */,
+				41E98290296BF5FA00CB7523 /* LaunchScreen.storyboard in Resources */,
+				410D7AF92972ED250085AAC0 /* ChenYuluoyan-Thin.ttf in Resources */,
+				41E982A5296C11E800CB7523 /* 告別的時代.mp3 in Resources */,
+				41E9829C296C0B8100CB7523 /* 為你寫下這首情歌.mp3 in Resources */,
+				41E9828B296BF5F900CB7523 /* Main.storyboard in Resources */,
+				41318E972971B3D8000875F9 /* Assets.xcassets in Resources */,
+				41E982A3296C11E800CB7523 /* 愛情你比我想的閣較偉大.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		41E9827C296BF5F900CB7523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				41E98284296BF5F900CB7523 /* AppDelegate.swift in Sources */,
+				41E9829E296C0EF500CB7523 /* MainMusic.swift in Sources */,
+				41E98298296BF8ED00CB7523 /* MusicPlayerViewController.swift in Sources */,
+				41E98286296BF5F900CB7523 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		41E98289296BF5F900CB7523 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E9828A296BF5F900CB7523 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		41E9828E296BF5FA00CB7523 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				41E9828F296BF5FA00CB7523 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		41E98292296BF5FA00CB7523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		41E98293296BF5FA00CB7523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		41E98295296BF5FA00CB7523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4BPBYLC6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.MusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		41E98296296BF5FA00CB7523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = Y4BPBYLC6X;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MusicPlayer/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.kai.MusicPlayer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		41E9827B296BF5F900CB7523 /* Build configuration list for PBXProject "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E98292296BF5FA00CB7523 /* Debug */,
+				41E98293296BF5FA00CB7523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E98294296BF5FA00CB7523 /* Build configuration list for PBXNativeTarget "MusicPlayer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41E98295296BF5FA00CB7523 /* Debug */,
+				41E98296296BF5FA00CB7523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 41E98278296BF5F900CB7523 /* Project object */;
+}
